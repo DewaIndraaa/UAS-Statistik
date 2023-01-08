@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <meta name="author" content="David Mario">
+    <meta name="author" content="Dewa Indra">
     <meta name="description" content="Admin Statistik">
-    <meta name="keywords" content="admin, statistik, david mario">
+    <meta name="keywords" content="admin, statistik, dewa indra">
 
-    <title>STATISTIKA 066</title>
+    <title>STATISTIKA 058</title>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -33,21 +33,21 @@
 
     <header>
         <!--Nav-->
-        <nav aria-label="menu nav" class="fixed top-0 z-20 w-full h-auto px-1 pt-2 pb-1 mt-0 bg-gray-100 md:pt-1">
+        <nav aria-label="menu nav" class="fixed top-0 z-20 w-full h-auto px-1 pt-2 pb-1 mt-0 bg-gray-500 shadow md:pt-1">
 
             <div class="flex flex-wrap items-center">
-                <div class="flex justify-center flex-shrink text-black md:w-1/3 md:justify-start">
+                <div class="flex justify-center flex-shrink text-white md:w-1/3 md:justify-start">
                     <a href="#" aria-label="Home">
-                        <span class="pl-4 text-xl font-semibold text-center text-black">ADMIN PAGE</span>
+                        <span class="pl-4 text-xl font-semibold text-center text-white">ADMIN STATISTIKA</span>
                     </a>
                 </div>
 
-                <div class="flex justify-center flex-1 px-2 text-black md:w-1/3 md:justify-start">
+                <div class="flex justify-center flex-1 px-2 text-white md:w-1/3 md:justify-start">
                     <span class="relative w-full">
                         <input aria-label="search" type="text" type="text" id="search" name="search" placeholder=""
-                            class="w-full px-2 py-3 pl-10 leading-normal text-black transition bg-gray-100 border border-transparent rounded appearance-none focus:outline-none focus:border-gray-400">
+                            class="w-full px-2 py-3 pl-10 leading-normal text-white transition bg-gray-500 border border-transparent rounded appearance-none focus:outline-none focus:border-gray-400">
                         <div class="absolute search-icon" style="top: 1rem; left: .8rem;">
-                            <!-- <svg class="w-4 h-4 text-black pointer-events-none fill-current"
+                            <!-- <svg class="w-4 h-4 text-white pointer-events-none fill-current"
                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                                 <path
                                     d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z">
@@ -176,9 +176,9 @@
             <section class="w-full rounded-xl">
                 <div id="main" class="flex-1 w-full h-full pb-24 mt-12 bg-gray-100 main-content md:mt-2 md:pb-5">
 
-                    <div class="pt-3 bg-gary-100">
+                    <div class="pt-3 bg-green-500">
                         <div
-                            class="p-4 text-2xl text-black bg-blue-500 shadow">
+                            class="p-4 text-2xl text-black bg-green-500 shadow">
                             <h1 class="pl-2 font-bold">Data Mahasiswa</h1>
                         </div>
                     </div>
@@ -186,16 +186,16 @@
                         class="w-full h-full p-4 text-xl text-justify text-black bg-transparent shadow ">
                         <div class="relative w-full overflow-x-auto">
                             <button
-                                class="focus:outline-none text-black bg-green-400 hover:bg-green-300 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 "><a
+                                class="focus:outline-none text-black bg-blue-400 hover:bg-blue-300 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 "><a
                                     href="/create">Tambah Data</a></button>
                             <button
-                                class="focus:outline-none text-black bg-yellow-500 hover:bg-yellow-400 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 "><a
+                                class="focus:outline-none text-black bg-blue-400 hover:bg-blue-300 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 "><a
                                     href="{{ route('printdatapdf') }}">Export PDF</a></button>
                             <button
-                                class="focus:outline-none text-black bg-blue-400 hover:bg-blue-300 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 "><a
+                                class="focus:outline-none text-black bg-blue-400 hover:bg-blue-300 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 "><a
                                     href="{{ route('printdataexcel') }}">Export XLSX</a></button>
                             <button
-                                class="focus:outline-none text-black bg-red-400 hover:bg-red-300 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 "
+                                class="focus:outline-none text-black bg-blue-400 hover:bg-blue-300 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 "
                                 id="import-btn">Import XLSX</button>
                                 <form class="form" method="get" action="{{ route('admin_search') }}">
                                     <div class="flex flex-col items-center justify-end mt-4 lg:flex-row lg:mt-0">
@@ -217,7 +217,7 @@
                                 </form>
 
                             <table class="w-full mt-4 text-sm text-center text-black rounded-lg shadow-lg">
-                                <thead class="text-xs text-gray-700 uppercase bg-blue-300">
+                                <thead class="text-xs text-gray-700 uppercase bg-green-300">
                                     <tr>
                                         <th scope="col" class="px-6 py-3">
                                             Number

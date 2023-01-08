@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <meta name="author" content="David Mario">
+    <meta name="author" content="Dewa Indra">
     <meta name="description" content="Admin Statistik">
-    <meta name="keywords" content="admin, statistik, david mario">
+    <meta name="keywords" content="admin, statistik, dewa indra">
 
-    <title>STATISTIKA 066</title>
+    <title>STATISTIKA 058</title>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -33,21 +33,21 @@
 
     <header>
         <!--Nav-->
-        <nav aria-label="menu nav" class="fixed top-0 z-20 w-full h-auto px-1 pt-2 pb-1 mt-0 bg-gray-100 md:pt-1">
+        <nav aria-label="menu nav" class="fixed top-0 z-20 w-full h-auto px-1 pt-2 pb-1 mt-0 bg-gray-500 shadow md:pt-1">
 
             <div class="flex flex-wrap items-center">
-                <div class="flex justify-center flex-shrink text-black md:w-1/3 md:justify-start">
+                <div class="flex justify-center flex-shrink text-white md:w-1/3 md:justify-start">
                     <a href="#" aria-label="Home">
-                        <span class="pl-4 text-xl font-semibold text-center text-black">ADMIN PAGE</span>
+                        <span class="pl-4 text-xl font-semibold text-center text-white">ADMIN STATISTIKA</span>
                     </a>
                 </div>
 
-                <div class="flex justify-center flex-1 px-2 text-black md:w-1/3 md:justify-start">
+                <div class="flex justify-center flex-1 px-2 text-white md:w-1/3 md:justify-start">
                     <span class="relative w-full">
                         <input aria-label="search" type="text" type="text" id="search" name="search" placeholder=""
-                            class="w-full px-2 py-3 pl-10 leading-normal text-black transition bg-gray-100 border border-transparent rounded appearance-none focus:outline-none focus:border-gray-400">
+                            class="w-full px-2 py-3 pl-10 leading-normal text-white transition bg-gray-500 border border-transparent rounded appearance-none focus:outline-none focus:border-gray-400">
                         <div class="absolute search-icon" style="top: 1rem; left: .8rem;">
-                            <!-- <svg class="w-4 h-4 text-black pointer-events-none fill-current"
+                            <!-- <svg class="w-4 h-4 text-white pointer-events-none fill-current"
                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                                 <path
                                     d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z">
@@ -94,7 +94,7 @@
                                         </button>
                                         @endif
                                         <div id="myDropdown"
-                                            class="absolute right-0 z-30 invisible p-3 mt-3 overflow-auto text-black bg-white dropdownlist">
+                                            class="absolute right-0 z-30 invisible p-3 mt-3 overflow-auto text-black bg-gray-800 dropdownlist">
                                             <input type="text" class="p-2 text-gray-600 drop-search"
                                                 placeholder="Search.." id="myInput"
                                                 onkeyup="filterDD('myDropdown','myInput')">
@@ -109,11 +109,11 @@
 
                                             <form method="POST" action="{{ route('logout') }}" x-data>
                                                 @csrf
-                                                <div class="border border-white"></div>
+                                                <div class="border border-gray-800"></div>
                                                 <a href="route('logout')"
                                                     onclick="event.preventDefault();
                                             this.closest('form').submit();"
-                                                    class="block p-2 text-sm text-black no-underline hover:bg-white hover:no-underline"><i
+                                                    class="block p-2 text-sm text-black no-underline hover:bg-gray-800 hover:no-underline"><i
                                                         class="fas fa-sign-out-alt fa-fw"></i> Log Out</a>
                                             </form>
                                         </div>
@@ -144,7 +144,12 @@
                 <div class="fixed bottom-0 z-10 content-center w-full h-screen mt-6 bg-gray-100 shadow-xl md:relative md:w-48">
 
                     <div class="mt-10 space-y-6 md:space-y-10">
-                    
+                        <div id="profile" class="space-y-10">
+                            <img
+                              src="img/cs logo.jpeg"
+                              alt="Avatar user"
+                              class="w-3/4 mx-4 rounded-full "/>
+                          </div>
                     <div class="content-center justify-between text-left md:mt-2 md:w-48 md:content-start">
                         <ul class="flex flex-row px-1 pt-3 text-center list-reset md:flex-col md:py-3 md:px-2 md:text-left">
                             <li class="flex-1 mr-3">
@@ -166,12 +171,11 @@
                             </li>
                         </ul>
                     </div>
-
                 </div>
             </nav>
             <section class="w-full rounded-xl">
                 <div id="main" class="flex-1 w-full h-full pb-24 mt-12 bg-gray-100 main-content md:mt-2 md:pb-5">
-                    <div class="px-6 py-4 text-3xl font-semibold text-left text-black bg-blue-500 text-start" style="font-family:Georgia, 'Times New Roman', Times, serif ">
+                    <div class="px-6 py-4 text-3xl font-semibold text-left text-black bg-green-500 text-start" style="font-family:Georgia, 'Times New Roman', Times, serif ">
                         Frekuensi Distribusi Data
                     </div>
                     <!-- Main content -->
@@ -180,7 +184,7 @@
                         <div class="inline-block w-1/2 px-12 py-4 ml-12 sm:px-6 lg:px-8">
                             <div class="overflow-hidden">
                             <table class="min-w-full text-center ">
-                                <thead class="bg-blue-300 border-b rounded-2xl">
+                                <thead class="bg-green-300 border-b rounded-2xl">
                                 <tr>
                                     <th scope="col" class="px-6 py-4 text-sm font-medium text-black">
                                     No

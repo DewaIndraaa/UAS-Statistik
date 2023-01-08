@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <meta name="author" content="David Mario">
+    <meta name="author" content="Dewa Indra">
     <meta name="description" content="Admin Statistik">
-    <meta name="keywords" content="admin, statistik, david mario">
+    <meta name="keywords" content="admin, statistik, dewa indra">
 
-    <title>STATISTIKA 066</title>
+    <title>STATISTIKA 058</title>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -33,21 +33,21 @@
 
     <header>
         <!--Nav-->
-        <nav aria-label="menu nav" class="fixed top-0 z-20 w-full h-auto px-1 pt-2 pb-1 mt-0 bg-gray-100 md:pt-1">
+        <nav aria-label="menu nav" class="fixed top-0 z-20 w-full h-auto px-1 pt-2 pb-1 mt-0 bg-gray-500 shadow md:pt-1">
 
             <div class="flex flex-wrap items-center">
-                <div class="flex justify-center flex-shrink text-black md:w-1/3 md:justify-start">
+                <div class="flex justify-center flex-shrink text-white md:w-1/3 md:justify-start">
                     <a href="#" aria-label="Home">
-                        <span class="pl-4 text-xl font-semibold text-center text-black">ADMIN PAGE</span>
+                        <span class="pl-4 text-xl font-semibold text-center text-white">ADMIN STATISTIKA</span>
                     </a>
                 </div>
 
-                <div class="flex justify-center flex-1 px-2 text-black md:w-1/3 md:justify-start">
+                <div class="flex justify-center flex-1 px-2 text-white md:w-1/3 md:justify-start">
                     <span class="relative w-full">
                         <input aria-label="search" type="text" type="text" id="search" name="search" placeholder=""
-                            class="w-full px-2 py-3 pl-10 leading-normal text-black transition bg-gray-100 border border-transparent rounded appearance-none focus:outline-none focus:border-gray-400">
+                            class="w-full px-2 py-3 pl-10 leading-normal text-white transition bg-gray-500 border border-transparent rounded appearance-none focus:outline-none focus:border-gray-400">
                         <div class="absolute search-icon" style="top: 1rem; left: .8rem;">
-                            <!-- <svg class="w-4 h-4 text-black pointer-events-none fill-current"
+                            <!-- <svg class="w-4 h-4 text-white pointer-events-none fill-current"
                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                                 <path
                                     d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z">
@@ -141,7 +141,7 @@
 
         <div class="flex flex-col md:flex-row">
             <nav aria-label="alternative nav">
-                <div class="fixed bottom-0 z-10 content-center w-full h-full mt-6 bg-gray-100 shadow-xl md:relative md:w-48">
+                <div class="fixed bottom-0 z-10 content-center w-full h-screen mt-6 bg-gray-100 shadow-xl md:relative md:w-48">
 
                     <div class="mt-10 space-y-6 md:space-y-10">
                         <div id="profile" class="space-y-10">
@@ -171,15 +171,14 @@
                             </li>
                         </ul>
                     </div>
-
                 </div>
             </nav>
             <section class="w-full rounded-xl">
                 <div id="main" class="flex-1 w-full h-full pb-24 mt-12 bg-gray-100 main-content md:mt-2 md:pb-5">
 
-                    <div class="bg-blue-500 ">
+                    <div class="bg-green-500 ">
                         <div
-                            class="p-4 text-2xl text-black bg-blue-500 shadow">
+                            class="p-4 text-2xl text-black bg-green-500 shadow">
                             <h1 class="pl-2 font-bold">Input Data Mahasiswa</h1>
                         </div>
                     </div>

@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <meta name="author" content="David Mario">
+    <meta name="author" content="Dewa Indra">
     <meta name="description" content="Admin Statistik">
-    <meta name="keywords" content="admin, statistik, david mario">
+    <meta name="keywords" content="admin, statistik, dewa indra">
 
-    <title>STATISTIKA 066</title>
+    <title>STATISTIKA 058</title>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -33,21 +33,21 @@
 
     <header>
         <!--Nav-->
-        <nav aria-label="menu nav" class="fixed top-0 z-20 w-full h-auto px-1 pt-2 pb-1 mt-0 bg-gray-100 shadow md:pt-1">
+        <nav aria-label="menu nav" class="fixed top-0 z-20 w-full h-auto px-1 pt-2 pb-1 mt-0 bg-gray-500 shadow md:pt-1">
 
             <div class="flex flex-wrap items-center">
-                <div class="flex justify-center flex-shrink text-black md:w-1/3 md:justify-start">
+                <div class="flex justify-center flex-shrink text-white md:w-1/3 md:justify-start">
                     <a href="#" aria-label="Home">
-                        <span class="pl-4 text-xl font-semibold text-center text-black">ADMIN PAGE</span>
+                        <span class="pl-4 text-xl font-semibold text-center text-white">ADMIN STATISTIKA</span>
                     </a>
                 </div>
 
-                <div class="flex justify-center flex-1 px-2 text-black md:w-1/3 md:justify-start">
+                <div class="flex justify-center flex-1 px-2 text-white md:w-1/3 md:justify-start">
                     <span class="relative w-full">
                         <input aria-label="search" type="text" type="text" id="search" name="search" placeholder=""
-                            class="w-full px-2 py-3 pl-10 leading-normal text-black transition bg-gray-100 border border-transparent rounded appearance-none focus:outline-none focus:border-gray-400">
+                            class="w-full px-2 py-3 pl-10 leading-normal text-white transition bg-gray-500 border border-transparent rounded appearance-none focus:outline-none focus:border-gray-400">
                         <div class="absolute search-icon" style="top: 1rem; left: .8rem;">
-                            <!-- <svg class="w-4 h-4 text-black pointer-events-none fill-current"
+                            <!-- <svg class="w-4 h-4 text-white pointer-events-none fill-current"
                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                                 <path
                                     d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z">
@@ -141,7 +141,7 @@
 
         <div class="flex flex-col md:flex-row">
             <nav aria-label="alternative nav">
-                <div class="fixed bottom-0 z-10 content-center w-full h-full mt-6 bg-gray-100 shadow-xl md:relative md:w-48">
+                <div class="fixed bottom-0 z-10 content-center w-full h-screen mt-6 bg-gray-100 shadow-xl md:relative md:w-48">
 
                     <div class="mt-10 space-y-6 md:space-y-10">
                         <div id="profile" class="space-y-10">
@@ -176,61 +176,21 @@
         <section class="w-full rounded-xl">
             <div id="main" class="flex-1 w-full h-full pb-24 mt-12 bg-gray-100 main-content md:mt-2 md:pb-5">
 
-            <div class="bg-blue-500 ">
+            <div class="bg-green-500 ">
                         <div
-                            class="p-4 text-2xl text-black bg-blue-500 shadow">
-                            <h1 class="pl-2 font-bold">Statistika</h1>
+                            class="p-4 text-2xl text-black bg-green-500 shadow">
+                            <h1 class="pl-2 font-bold">Pengertian Statistika</h1>
                         </div>
                     </div>
                 <div class="w-full h-full p-6 text-justify text-black bg-transparent shadow text-md rounded-tl-3xl">
                     <div class="card-body">
                         <p>
-                          &emsp14; &emsp14;  &emsp14; &emsp14;  &emsp14; &emsp14;Statistika adalah ilmu yang mempelajari bagaimana merencanakan, mengumpulkan, menganalisis,
-                          menginterpretasi, dan mempresentasikan data. Singkatnya, statistika adalah ilmu yang berkenaan dengan
-                          data. Istilah 'statistika' (bahasa Inggris: statistics) berbeda dengan 'statistik' (statistic).
-                          Statistika merupakan ilmu yang berkenaan dengan data, sedang statistik adalah data, informasi, atau
-                          hasil penerapan algoritme statistika pada suatu data. Dari kumpulan data, statistika dapat digunakan
-                          untuk menyimpulkan atau mendeskripsikan data; ini dinamakan statistika deskriptif. Sebagian besar konsep
-                          dasar statistika mengasumsikan teori probabilitas. Beberapa istilah statistika antara lain: populasi,
-                          sampel, unit sampel, dan probabilitas.
+                          &emsp14; &emsp14;  &emsp14; &emsp14;  &emsp14; &emsp14;Statistika adalah sebuah ilmu yang mempelajari bagaimana cara merencanakan, mengumpulkan, menganalisis, lalu menginterpretasikan, dan akhirnya mempresentasikan data. Singkatnya, statistika adalah ilmu yang bersangkutan dengan suatu data. Istilah statistika berbeda dengan statistik. Statistika pada umumnya bekerja dengan memakai data numerik yang di mana adalah hasil cacahan maupun hasil pengkuran yang dilakukan dengan menggunakan data kategorik yang diklasifikasikan menurut sebuah kriteria tertentu.
+
+                            Statistika merupakan ilmu yang berkaitan dengan data. Statistik adalah data itu sendiri, informasinya, atau hasil penerapan algoritme statistika pada suatu data tersebut. Dari kumpulan data, statistika dapat digunakan untuk menyimpulkan atau mendeskripsikan data; inilah yang dinamakan statistika deskriptif. Informasi kemudian dicatat sekaligus dikumpulkan baik itu dalam bentuk informasi numerik maupun informasi kategorik yang disebut sebagai suatu pengamatan. Sebagian besar konsep dasar statistika memberi asumsi mengenai teori probabilitas. Beberapa istilah statistika antara lain sebagai berikut: populasi, sampel, unit sampel, probabilitas.
+
+                            Statistika juga telah banyak diterapkan dalam berbagai disiplin ilmu, baik itu ilmu-ilmu alam (misalnya astronomi dan biologi maupun ilmu-ilmu sosial (termasuk sosiologi dan psikologi), maupun di bidang bisnis (mengenai produk, dll), ekonomi, dan industri. Statistika juga digunakan dalam pemerintahan untuk mencapai berbagai macam tujuan; Sensus populasi masyarakat merupakan salah satu prosedur yang paling dikenal. Ada pula aplikasi statistika lain yang sekarang populer yaitu prosedur jajak pendapat atau polling (misalnya dilakukan sebelum pemilihan umum), serta hitung cepat (perhitungan cepat hasil pemilu) atau Quick count. Di bidang komputasi, statistika dapat pula diterapkan dalam pengenalan pola maupun kecerdasan buatan ("AI").
                           </p><br>
-                          <p>
-                          &emsp14; &emsp14;  &emsp14; &emsp14;  &emsp14; &emsp14;Statistika banyak diterapkan dalam berbagai disiplin ilmu, baik ilmu-ilmu alam (misalnya astronomi dan
-                          biologi maupun ilmu-ilmu sosial (termasuk sosiologi dan psikologi), maupun di bidang bisnis, ekonomi,
-                          dan industri. Statistika juga digunakan dalam pemerintahan untuk berbagai macam tujuan; sensus penduduk
-                          merupakan salah satu prosedur yang paling dikenal. Aplikasi statistika lainnya yang sekarang popular
-                          adalah prosedur jajak pendapat atau polling (misalnya dilakukan sebelum pemilihan umum), serta hitung
-                          cepat (perhitungan cepat hasil pemilu) atau quick count. Di bidang komputasi, statistika dapat pula
-                          diterapkan dalam pengenalan pola maupun kecerdasan buatan.
-                          </p><br>
-                          <p>
-                            &emsp14; &emsp14;  &emsp14; &emsp14;  &emsp14; &emsp14;Penggunaan istilah statistika berakar dari istilah istilah dalam bahasa latin modern statisticum
-                          collegium ("dewan negara") dan bahasa Italia statista ("negarawan" atau "politikus"). Gottfried
-                          Achenwall (1749) menggunakan Statistik dalam bahasa Jerman untuk pertama kalinya sebagai nama bagi
-                          kegiatan analisis data kenegaraan, dengan mengartikannya sebagai "ilmu tentang negara (state)". Pada
-                          awal abad ke-19 telah terjadi pergeseran arti menjadi "ilmu mengenai pengumpulan dan klasifikasi data".
-                          Sir John Sinclair memperkenalkan nama (Statistics) dan pengertian ini ke dalam bahasa Inggris. Jadi,
-                          statistika secara prinsip mula-mula hanya mengurus data yang dipakai lembaga-lembaga administratif dan
-                          pemerintahan. Pengumpulan data terus berlanjut, khususnya melalui sensus yang dilakukan secara teratur
-                          untuk memberi informasi kependudukan yang berubah setiap saat.
-                          </p><br>
-                          <p>
-                            &emsp14; &emsp14;  &emsp14; &emsp14;  &emsp14; &emsp14;Pada abad ke-19 dan awal abad ke-20 statistika mulai banyak menggunakan bidang-bidang dalam matematika,
-                          terutama peluang. Cabang statistika yang pada saat ini sangat luas digunakan untuk mendukung metode
-                          ilmiah, statistika inferensi, dikembangkan pada paruh kedua abad ke-19 dan awal abad ke-20 oleh [Ronald
-                          Fisher] (peletak dasar statistika inferensi), Karl Pearson (metode regresi linear), dan William Sealey
-                          Gosset (meneliti problem sampel berukuran kecil). Penggunaan statistika pada masa sekarang dapat
-                          dikatakan telah menyentuh semua bidang ilmu pengetahuan, mulai dari astronomi hingga linguistika.
-                          Bidang-bidang ekonomi, biologi dan cabang-cabang terapannya, serta psikologi banyak dipengaruhi oleh
-                          statistika dalam metodologinya. Akibatnya lahirlah ilmu-ilmu gabungan seperti ekonometrika, biometrika
-                          (atau biostatistika), dan psikometrika.
-                          </p><br>
-                          <p>
-                            &emsp14; &emsp14;  &emsp14; &emsp14;  &emsp14; &emsp14;Meskipun ada pihak yang menganggap statistika sebagai cabang dari matematika, tetapi sebagian pihak
-                          lainnya menganggap statistika sebagai bidang yang banyak terkait dengan matematika melihat dari sejarah
-                          dan aplikasinya. Di Indonesia, kajian statistika sebagian besar masuk dalam fakultas matematika dan ilmu
-                          pengetahuan alam, baik di dalam departemen tersendiri maupun tergabung dengan matematika.
-                          </p>
                       </div>
                 </div>
 

@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <meta name="author" content="David Mario">
+    <meta name="author" content="Dewa Indra">
     <meta name="description" content="Admin Statistik">
-    <meta name="keywords" content="admin, statistik, david mario">
+    <meta name="keywords" content="admin, statistik, dewa indra">
 
-    <title>STATISTIK | ILKOM 055</title>
+    <title>STATISTIK | ILKOM 058</title>
 
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 
@@ -29,8 +29,8 @@
     <div class="flex items-center justify-center min-h-screen px-5 py-5 bg-white min-w-screen">
         <div class="w-full overflow-hidden text-gray-500 bg-gray-100 shadow-xl rounded-3xl" style="max-width:1000px">
             <div class="w-full md:flex">
-                <div class="hidden w-1/2 px-10 py-10 bg-blue-500 md:block">
-                    <img src="img/login.svg" alt="" class="w-full h-full">
+                <div class="hidden w-1/2 px-10 py-10 md:block">
+                    <img src="img/login.png" alt="" class="w-full h-full">
                 </div>
                 <div class="w-full px-5 py-10 md:w-1/2 md:px-10">
                     <div class="mb-10 text-center">
@@ -77,7 +77,7 @@
                             </div>
                             <div class="flex -mx-3">
                                 <div class="w-full px-3 mb-5">
-                                    <button type="submit" class="block w-full max-w-xs px-3 py-3 mx-auto font-semibold text-white bg-indigo-500 rounded-lg hover:bg-indigo-700 focus:bg-indigo-700">LOGIN</button>
+                                    <button type="submit" class="block w-full max-w-xs px-3 py-3 mx-auto font-semibold text-white bg-green-500 rounded-lg hover:bg-green-700 focus:bg-green-700">LOGIN</button>
                                 </div>
                             </div>
                             <div class="flex -mx-3">
